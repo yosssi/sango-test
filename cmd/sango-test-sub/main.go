@@ -68,7 +68,7 @@ func main() {
 		<-receipt
 	}()
 
-	// 割り込み発生までウェイト
+	// 割り込み発生まで待つ
 WaitLoop:
 	for {
 		select {
